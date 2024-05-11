@@ -578,6 +578,10 @@ body {
   }
 }
 
+.thankyou_message{
+  margin-bottom: 22px;
+}
+
 .sr-only{
   position: absolute;
   width: 1px;
@@ -782,6 +786,10 @@ body {
   margin-bottom: 0px;
 }
 
+.button_submit{
+  margin-bottom: 0px;
+}
+
 .mb-1{
   margin-bottom: 0.25rem;
 }
@@ -845,6 +853,11 @@ body {
 .mb-\[22px\]{
   margin-bottom: 22px;
 }
+
+.form-elements{
+  margin-bottom: 22px;
+}
+
 
 .mb-\[30px\]{
   margin-bottom: 30px;
@@ -944,6 +957,10 @@ body {
 
 .h-1\/2{
   height: 50%;
+}
+
+.border-soft{
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 }
 
 .h-10{
@@ -1306,6 +1323,12 @@ body {
 
 .border{
   border-width: 1px;
+}
+
+.border-10{
+  --tw-border-opacity: 64;
+  border-color: rgb(250 250 15/ var(--tw-border-opacity));
+  border-width: 10px;
 }
 
 .border-0{
@@ -2136,7 +2159,7 @@ body {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-:is(.dark .common-carousel .swiper-button-next),:is(.dark 
+:is(.dark .common-carousel .swiper-button-next),:is(.dark
 .common-carousel .swiper-button-prev){
   --tw-bg-opacity: 1;
   background-color: rgb(17 25 40 / var(--tw-bg-opacity));
