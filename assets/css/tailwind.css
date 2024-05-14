@@ -28,7 +28,9 @@
 }
 
 
-
+:root {
+  color-scheme: only light;
+}
 #two {
   height: 100%;
   display: flex;
